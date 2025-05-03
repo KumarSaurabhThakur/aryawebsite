@@ -141,8 +141,7 @@ body {
 .aboutUs p,
 .ourculture p,
 .campus p,
-.facilities p,
-.principaldesk p {
+.facilities p{
     font-size: 1.2rem;
     color: darkslategray;
 }
@@ -327,4 +326,10 @@ h2 {
     border: 3px solid #F76B0E;
     box-shadow: 0px 0px 10px black;
     margin-top: 5vh;
+}
+
+.principaldesk p {
+    font-size: 0.9rem;
+    color: darkslategray;
+    line-height: 30px;
 }
