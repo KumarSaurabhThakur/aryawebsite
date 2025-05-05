@@ -47,16 +47,10 @@ body {
 }
 
 .navbar .navleft {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -50px;
-}
-
-.navbar .navleft .schoolname {
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 50%;
+    margin-left: 5vh;
 }
 
 .navbar div img {
@@ -66,10 +60,11 @@ body {
 }
 
 .navbar .navlinks {
-    width: 60%;
+    width: 90%;
     background-color: #F76B0E;
     margin: auto;
     margin-top: -5vh;
+    font-size: 1.2rem;
 
 }
 
@@ -80,7 +75,7 @@ body {
 }
 
 .navbar .navlinks ul li {
-    margin: 5px 8px;
+    margin: 0.5vh 2.5vh;
 }
 
 .navbar .navlinks ul a {
@@ -93,6 +88,12 @@ body {
     color: #006341;
     border-bottom: 4px solid #006341;
     transition: 0.5s;
+}
+
+.schoolname {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #006341;
 }
 
 .banner {
@@ -133,7 +134,7 @@ body {
 .ourculture .greentext,
 .campus .greentext,
 .facilities .greentext,
-.principaldesk .greentext {
+.principaldesk .greentext , .photogallery .greentext{
     font-size: 2rem;
     color: #006341;
 }
@@ -150,7 +151,7 @@ body {
 .ourculture .darkslategray,
 .campus .darkslategray,
 .facilities .darkslategray,
-.principaldesk .darkslategray {
+.principaldesk .darkslategray, .photogallery .darkslategray {
     color: darkslategray;
 }
 
@@ -219,6 +220,8 @@ body {
 }
 
 .campus .campusimage img {
+    width: 120%;
+    height: auto;
     border: 4px solid #F76B0E;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
@@ -247,7 +250,7 @@ body {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 5vh;
-    margin: 5vh;
+    margin: 5vh 15vh 5vh 15vh;
 }
 
 .vision .visiontwo img {
@@ -279,7 +282,7 @@ h2 {
     margin: 5vh;
 }
 
-.facilities h1 {
+.facilities h1, .photogallery h1 {
     text-align: center;
 }
 
@@ -332,4 +335,34 @@ h2 {
     font-size: 0.9rem;
     color: darkslategray;
     line-height: 30px;
+}
+
+.photogallery{
+    margin: 5vh 15vh 5vh 15vh;
+}
+
+.photogallery .photogallerygrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3vh;
+    row-gap: 3vh;
+}
+
+.photogallery img{
+    border: 4px solid #F76B0E;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.photogallery img:hover{
+    border: 4px solid #006341;
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px #006341;
+}
+
+.photogallery .photogalleryimage2 img{
+    width: 61vh;
+    height: 41vh;
+    object-fit: cover;
 }
