@@ -134,7 +134,9 @@ body {
 .ourculture .greentext,
 .campus .greentext,
 .facilities .greentext,
-.principaldesk .greentext , .photogallery .greentext{
+.principaldesk .greentext,
+.photogallery .greentext,
+.formfilling .greentext {
     font-size: 2rem;
     color: #006341;
 }
@@ -142,7 +144,7 @@ body {
 .aboutUs p,
 .ourculture p,
 .campus p,
-.facilities p{
+.facilities p {
     font-size: 1.2rem;
     color: darkslategray;
 }
@@ -151,7 +153,9 @@ body {
 .ourculture .darkslategray,
 .campus .darkslategray,
 .facilities .darkslategray,
-.principaldesk .darkslategray, .photogallery .darkslategray {
+.principaldesk .darkslategray,
+.photogallery .darkslategray,
+.formfilling .darkslategray {
     color: darkslategray;
 }
 
@@ -282,7 +286,9 @@ h2 {
     margin: 5vh;
 }
 
-.facilities h1, .photogallery h1 {
+.facilities h1,
+.photogallery h1,
+.formfilling h1 {
     text-align: center;
 }
 
@@ -337,32 +343,143 @@ h2 {
     line-height: 30px;
 }
 
-.photogallery{
+.photogallery {
     margin: 5vh 15vh 5vh 15vh;
 }
 
-.photogallery .photogallerygrid{
+.photogallery .photogallerygrid {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 3vh;
     row-gap: 3vh;
 }
 
-.photogallery img{
+.photogallery img {
     border: 4px solid #F76B0E;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
 }
 
-.photogallery img:hover{
+.photogallery img:hover {
     border: 4px solid #006341;
     transform: scale(1.05);
     transition: 0.5s;
     box-shadow: 0px 0px 10px #006341;
 }
 
-.photogallery .photogalleryimage2 img{
+.photogallery .photogalleryimage2 img {
     width: 61vh;
     height: 41vh;
     object-fit: cover;
+}
+
+.formfilling {
+    margin: 5vh 15vh 5vh 15vh;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgb(189, 236, 189);
+}
+
+.formfilling .info input {
+    width: 30%;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 0px;
+    outline: 0px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding-left: 20px;
+    background-color: #F76B0E;
+}
+
+.formfilling .info input:focus {
+    transform: scale(1.1);
+    background-color: #006341;
+    color: white;
+    box-shadow: 0px 0px 10px #006341;
+    transition: 0.5s;
+}
+
+.formfilling .address textarea {
+    width: 63%;
+    height: 200px;
+    font-family: "poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 0px;
+    outline: 0px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: #F76B0E;
+    color: white;
+}
+
+.formfilling .address textarea:focus {
+    transform: scale(1.2);
+    background-color: #006341;
+    color: white;
+    box-shadow: 0px 0px 10px #006341;
+    transition: 0.5s;
+}
+
+.formfilling .submit input {
+    width: 20%;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 0px;
+    outline: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #006341;
+}
+
+.formfilling .submit input:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px #006341;
+    transition: 0.5s;
+}
+
+footer{
+    align-items: center;
+    background-color: #006341;
+    color: rgb(167, 255, 167);
+    margin-bottom: -5vh;
+}
+
+.copyright{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    column-gap: 12vh;
+    margin: 5vh 10vh;
+    border-bottom: 2px solid rgb(167, 255, 167);
+}
+
+.copyright h3{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.copyright ul{
+    list-style: none;
+    margin-left: -6vh;
+}
+
+.copyright ul li a{
+    text-decoration: none;
+    color: rgb(167, 255, 167);
+}
+
+.copyright ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
 }
