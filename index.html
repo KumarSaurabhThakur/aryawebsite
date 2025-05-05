@@ -22,8 +22,10 @@
 <body>
 
 
+
     <header>
 
+        <a name="home"></a>
         <section class="topbar">
             <div>
                 <div><img src="aryabalimages/school.png" /></div>
@@ -36,7 +38,8 @@
 
             <div>
                 <div><img src="aryabalimages/location.png" /></div>
-                <div class="top-info"><a href="https://g.co/kgs/ieeXw5U">G.T. Road, Panipat, Haryana 132103</a></div>
+                <div class="top-info"><a href="https://g.co/kgs/ieeXw5U">G.T. Road, Panipat, Haryana 132103</a>
+                </div>
             </div>
             <div>
                 <div><img src="aryabalimages/mail.png" /></div>
@@ -54,21 +57,26 @@
             </div>
             <div class="navlinks">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="">Facilities</a></li>
                     <li><a href="">Admission</a></li>
-                    <li><a href="">Academic</a></li>
+                    <li><a href="arya2.html">Academic</a></li>
                     <li><a href="">Administrations</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
 
         </section>
 
-        <section class="schoolname"><div><h1>Arya Bal Bharti Public School</h1></div></section>
+        <section class="schoolname">
+            <div>
+                <h1>Arya Bal Bharti Public School</h1>
+            </div>
+        </section></a>
 
     </header>
+
 
 
     <main>
@@ -77,25 +85,29 @@
 
         </section>
 
-        <section class="aboutUs">
-            <div><img src="aryabalimages/maharshi.png" /></div>
-            <div>
-                <span class="aboutheading">About Us</span>
-                <h1>
-                    <span class="darkslategray">Welcome to </span><span class="greentext">Arya Bal Bharti Public
-                        School</span>
-                </h1>
-                <p>Arya Bal Bharti Public School is one of the most prestigious school in India. Founded as a Public
-                    School in 1972 in Panipat, it is a private institution run by the Arya Pratinidhi Sabha Rohtak,
-                    Haryana. Arya Bal Bharti Public School is affiliated to the Central Board of Secondary Education
-                    (CBSE), which is the largest educational board in the country. It is recognized by the Department of
-                    Education, Govt. of India. Over 5000 schools in India, with over 80,000 students, are members of the
-                    Board.
+        <a name="about">
+            <section class="aboutUs">
+                <div><img src="aryabalimages/maharshi.png" /></div>
+                <div>
+                    <span class="aboutheading">About Us</span>
+                    <h1>
+                        <span class="darkslategray">Welcome to </span><span class="greentext">Arya Bal Bharti Public
+                            School</span>
+                    </h1>
+                    <p>Arya Bal Bharti Public School is one of the most prestigious school in India. Founded as a Public
+                        School in 1972 in Panipat, it is a private institution run by the Arya Pratinidhi Sabha Rohtak,
+                        Haryana. Arya Bal Bharti Public School is affiliated to the Central Board of Secondary Education
+                        (CBSE), which is the largest educational board in the country. It is recognized by the
+                        Department of
+                        Education, Govt. of India. Over 5000 schools in India, with over 80,000 students, are members of
+                        the
+                        Board.
 
-                </p>
-                <button>More &rarr;</button>
-            </div>
-        </section>
+                    </p>
+                    <button>More &rarr;</button>
+                </div>
+            </section>
+        </a>
 
         <section class="ourculture">
             <h1><span class="darkslategray">Our</span> <span class="greentext">Culture</span></h1>
@@ -225,26 +237,99 @@
                     understanding and not just knowledgeable, as kind and compassionate and not just friendly. Life at
                     ABBPS is an exciting journey which begins when children enter its portals and step into the
                     intricate domain of the scholar.</p>
-                    <h2>Dr. Ashok Arya</h2>
-                    <p>Principal</p>
+                <h2>Dr. Ashok Arya</h2>
+                <p>Principal</p>
             </div>
         </section>
 
         <section class="photogallery">
             <h1><span class="darkslategray">School's </span><span class="greentext">Image Gallery</span></h1>
             <div class="photogallerygrid">
-            <div><img src="aryabalimages/photo11.jpg"/></div>
-            <div class="photogalleryimage2"><img src="aryabalimages/photo13.jpg"/></div>
-            <div><img src="aryabalimages/photo14.jpg"/></div>
-            <div><img src="aryabalimages/photo11.jpg"/></div>
-        </div>
+                <div><img src="aryabalimages/photo11.jpg" /></div>
+                <div class="photogalleryimage2"><img src="aryabalimages/photo13.jpg" /></div>
+                <div><img src="aryabalimages/photo14.jpg" /></div>
+                <div><img src="aryabalimages/photo11.jpg" /></div>
+            </div>
         </section>
+
+        <a name="prospectus">
+            <section class="formfilling">
+                <h1><span class="darkslategray">Book Your </span><span class="greentext">Seat Now!</span></h1>
+                <form action="SubmitForm">
+                    <div>
+                        <span class="info"><input type="text" placeholder="Name" name="name" required /></span>
+                        <span class="info"><input type="text" placeholder="Father's Name" name="fname"
+                                required /></span>
+                    </div>
+                    <div>
+                        <span class="info"><input type="email" placeholder="Email" name="firstname" required /></span>
+                        <span class="info"><input type="number" placeholder="Contact Number" name="contactnumber"
+                                required /></span>
+                    </div>
+                    <div>
+                        <span class="info"><input type="number" placeholder="Class" name="class" min="1" max="12"
+                                required /></span>
+                        <span class="info"><input type="number" placeholder="% in Previous Class" name="marks"
+                                required /></span>
+                    </div>
+                    <div>
+                        <span class="address"><textarea name="address" placeholder="Address" required></textarea></span>
+                    </div>
+                    <div>
+                        <p class="submit"><input type="submit" placeholder="Submit" /></p>
+                    </div>
+                </form>
+                </div>
+            </section>
+        </a>
 
     </main>
 
 
     <footer>
+        <a name="contact">
+            <section class="copyright">
+                <div>
+                    <h3>Our Facilities</h3>
+                    <ul>
+                        <li>Smart Class</li>
+                        <li>Qualified Faculty</li>
+                        <li>Transport</li>
+                        <li>Library</li>
+                        <li>Computer Lab</li>
+                        <li>Physics Lab</li>
+                        <li>Chemistry Lab</li>
+                        <li>Sports</li>
+                    </ul>
+                </div>
 
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="">Mendatory Public Disclosure</a></li>
+                        <li><a href="">List of Holidays</a></li>
+                        <li><a href="#prospectus">Prospectus</a></li>
+                        <li><a href="">School Calendar</a></li>
+                        <li><a href="">Staff List</a></li>
+                        <li><a href="#home">Back to Top</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>Arya Bal Bharti Public School</li>
+                        <li>Add: G.T Road, Panipat-132103, Haryana </li>
+                        <li>Call: 0180-2639590</li>
+                        <li>Email: aryabalbharti.06@gmail.com</li>
+                    </ul>
+                </div>
+            </section>
+        </a>
+
+        <div>
+            <p>© Copyrights 2025 Arya Bal Bharti Public School All rights reserved. Designed By KMNK.</p>
+        </div>
     </footer>
 
 
