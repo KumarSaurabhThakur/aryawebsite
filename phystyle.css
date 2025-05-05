@@ -94,6 +94,30 @@ html {
     transition: 0.5s;
 }
 
+.navbar .navlinks .dropdown{
+    position: relative;
+}
+
+.navbar .navlinks .dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+.navbar .navlinks .dropdown-content a{
+    display: block;
+}
+
+.navbar .navlinks .dropdown:hover .dropdown-content{
+    display: block;
+    z-index: 1;
+    background-color: #F76B0E;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 35vh;
+}
+
+
 .schoolname {
     text-align: center;
     font-size: 1.7rem;
@@ -181,4 +205,41 @@ body {
     object-fit: cover;
     border: solid orangered;
     margin-top: -65px;
+}
+footer{
+    align-items: center;
+    background-color: #006341;
+    color: rgb(167, 255, 167);
+    margin-bottom: -5vh;
+}
+
+.copyright{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    column-gap: 12vh;
+    margin: 5vh 10vh;
+    border-bottom: 2px solid rgb(167, 255, 167);
+}
+
+.copyright h3{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.copyright ul{
+    list-style: none;
+    margin-left: -6vh;
+}
+
+.copyright ul li a{
+    text-decoration: none;
+    color: rgb(167, 255, 167);
+}
+
+.copyright ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
 }
