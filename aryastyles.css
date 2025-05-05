@@ -90,6 +90,29 @@ body {
     transition: 0.5s;
 }
 
+.navbar .navlinks .dropdown{
+    position: relative;
+}
+
+.navbar .navlinks .dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+.navbar .navlinks .dropdown-content a{
+    display: block;
+}
+
+.navbar .navlinks .dropdown:hover .dropdown-content{
+    display: block;
+    z-index: 1;
+    background-color: #F76B0E;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 35vh;
+}
+
 .schoolname {
     text-align: center;
     font-size: 1.7rem;
