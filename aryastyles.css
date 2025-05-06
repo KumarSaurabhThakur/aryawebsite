@@ -373,6 +373,8 @@ h2 {
 
 .photogallery {
     margin: 5vh 15vh 5vh 15vh;
+    text-align:center;
+    align-items:center;
 }
 
 .photogallery .photogallerygrid {
