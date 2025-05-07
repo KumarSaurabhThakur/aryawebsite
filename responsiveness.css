@@ -161,7 +161,7 @@
     }
 }
 
-@media only screen and (max-width:1200px) {
+/*@media only screen and (max-width:1200px) {
     .topbar {
         height: 5vh;
         font-size: 0.9rem;
@@ -313,7 +313,7 @@
     }
 }
 
-/*@media only screen and (min-width:992px) {
+@media only screen and (min-width:992px) {
     .topbar {
         height: 4vh;
         font-size: 0.7rem;
@@ -463,4 +463,4 @@
     footer p {
         font-size: 1rem;
     }
-}
+}*/
